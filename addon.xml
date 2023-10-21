@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.audiobookshelf.simpleclient" name="Audiobookshelf SimpleClient" version="0.0.1" provider-name="adama">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.31.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Audiobookshelf simple client for KODI</summary>
+		<description lang="en_GB"></description>
+		<language></language>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner></banner> <!-- optional -->
+			<clearlogo>resources/clearlogo.png</clearlogo> <!-- optional -->
+			<screenshot></screenshot> <!-- optional, max. 10 -->
+		</assets>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<settings>settings.xml</settings>
+	</extension>
+</addon>

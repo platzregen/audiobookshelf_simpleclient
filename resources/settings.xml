@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting id="ipaddress" type="text" label="IP Address" default="" />
+        <setting id="port" type="number" label="Port" default="80" />
+        <setting id="username" type="text" label="Username" default="" />
+        <setting id="password" type="text" option="hidden" label="Password" default="" />
+    </category>
+</settings>
